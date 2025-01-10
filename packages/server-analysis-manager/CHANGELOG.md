@@ -1,5 +1,32 @@
 # Changelog
 
+## [0.8.5](https://github.com/PrivateAIM/hub/compare/v0.8.4...v0.8.5) (2025-01-10)
+
+
+### Features
+
+* bump authup dependencies & adjusted code base ([90f7131](https://github.com/PrivateAIM/hub/commit/90f7131723e4e00dad04cb5ababa3e3f232e9c24))
+* refactoring of master-image workflow ([#845](https://github.com/PrivateAIM/hub/issues/845)) ([7d2b866](https://github.com/PrivateAIM/hub/commit/7d2b8662b24dcf411d3ae8232152fecf53167382))
+
+
+### Bug Fixes
+
+* **deps:** bump the minorandpatch group across 1 directory with 31 updates ([#945](https://github.com/PrivateAIM/hub/issues/945)) ([448e9b8](https://github.com/PrivateAIM/hub/commit/448e9b86bf80f83c4aa8bb32ee0a75190a1d5cb8))
+* **deps:** bump the minorandpatch group across 1 directory with 4 updates ([#906](https://github.com/PrivateAIM/hub/issues/906)) ([e11bc5f](https://github.com/PrivateAIM/hub/commit/e11bc5f3b565347af3180e8e29b4e3b79ace5961))
+* **deps:** bump uuid from 10.0.0 to 11.0.2 ([#852](https://github.com/PrivateAIM/hub/issues/852)) ([c15d400](https://github.com/PrivateAIM/hub/commit/c15d4000e8ec01d442f4b778c4bd58e7df271b53))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @privateaim/core-kit bumped from ^0.8.4 to ^0.8.5
+    * @privateaim/kit bumped from ^0.8.4 to ^0.8.5
+    * @privateaim/core-http-kit bumped from ^0.8.4 to ^0.8.5
+    * @privateaim/server-kit bumped from ^0.8.4 to ^0.8.5
+    * @privateaim/server-analysis-manager-kit bumped from ^0.7.5 to ^0.7.6
+    * @privateaim/storage-kit bumped from ^0.8.4 to ^0.8.5
+
 ## [0.8.4](https://github.com/PrivateAIM/hub/compare/v0.8.3...v0.8.4) (2024-10-24)
 
 
