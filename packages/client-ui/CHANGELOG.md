@@ -1,5 +1,34 @@
 # Changelog
 
+## [0.8.5](https://github.com/PrivateAIM/hub/compare/v0.8.4...v0.8.5) (2025-01-10)
+
+
+### Features
+
+* allow node registry_id to be undefined ([a049c7a](https://github.com/PrivateAIM/hub/commit/a049c7ac5a69416ab643a908290e1047a5f7addb))
+* basic web crypto implementation (P.P. research-project) + node key-pair generation ([#912](https://github.com/PrivateAIM/hub/issues/912)) ([8cdb9d8](https://github.com/PrivateAIM/hub/commit/8cdb9d8ff140400426ccbd61f254a47fa0e3fab1))
+* bump authup dependencies & adjusted code base ([90f7131](https://github.com/PrivateAIM/hub/commit/90f7131723e4e00dad04cb5ababa3e3f232e9c24))
+* refactoring of master-image workflow ([#845](https://github.com/PrivateAIM/hub/issues/845)) ([7d2b866](https://github.com/PrivateAIM/hub/commit/7d2b8662b24dcf411d3ae8232152fecf53167382))
+
+
+### Bug Fixes
+
+* **deps:** bump @authup/core-kit from 1.0.0-beta.22 to 1.0.0-beta.23 ([#896](https://github.com/PrivateAIM/hub/issues/896)) ([e0dcfed](https://github.com/PrivateAIM/hub/commit/e0dcfed47320bd53fadbca11a05ca677ed0ef7ff))
+* **deps:** bump @authup/kit from 1.0.0-beta.22 to 1.0.0-beta.23 ([#901](https://github.com/PrivateAIM/hub/issues/901)) ([00a447c](https://github.com/PrivateAIM/hub/commit/00a447ce40ab17b67b0809b41c4233e424303a7c))
+* **deps:** bump the minorandpatch group across 1 directory with 31 updates ([#945](https://github.com/PrivateAIM/hub/issues/945)) ([448e9b8](https://github.com/PrivateAIM/hub/commit/448e9b86bf80f83c4aa8bb32ee0a75190a1d5cb8))
+* emit node changes after http operaiton ([431a6f7](https://github.com/PrivateAIM/hub/commit/431a6f7cabd1457090b7f20508d6a2ef1e12fbb9))
+* version of pinia ([207fcd4](https://github.com/PrivateAIM/hub/commit/207fcd435ba558029c4ec9b92c33993515ce7b15))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * @privateaim/client-vue bumped from ^0.8.4 to ^0.8.5
+    * @privateaim/core-kit bumped from ^0.8.4 to ^0.8.5
+    * @privateaim/kit bumped from ^0.8.4 to ^0.8.5
+    * @privateaim/storage-kit bumped from ^0.8.4 to ^0.8.5
+
 ## [0.8.4](https://github.com/PrivateAIM/hub/compare/v0.8.3...v0.8.4) (2024-10-24)
 
 

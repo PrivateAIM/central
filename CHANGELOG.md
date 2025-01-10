@@ -1,5 +1,43 @@
 # Changelog
 
+## [0.8.5](https://github.com/PrivateAIM/hub/compare/v0.8.4...v0.8.5) (2025-01-10)
+
+
+### Features
+
+* add public_key property to node entity ([69fe08e](https://github.com/PrivateAIM/hub/commit/69fe08e4732852d4cbd977a9bcb145f7fa0cfc15))
+* allow node registry_id to be undefined ([a049c7a](https://github.com/PrivateAIM/hub/commit/a049c7ac5a69416ab643a908290e1047a5f7addb))
+* basic web crypto implementation (P.P. research-project) + node key-pair generation ([#912](https://github.com/PrivateAIM/hub/issues/912)) ([8cdb9d8](https://github.com/PrivateAIM/hub/commit/8cdb9d8ff140400426ccbd61f254a47fa0e3fab1))
+* bump authup dependencies & adjusted code base ([90f7131](https://github.com/PrivateAIM/hub/commit/90f7131723e4e00dad04cb5ababa3e3f232e9c24))
+* enhance typing for doamin entities ([9d7c516](https://github.com/PrivateAIM/hub/commit/9d7c51644b66c9361e5436e2c43f463f4f219f90))
+* implement basic master image event log (db-) entity ([d2fdb7f](https://github.com/PrivateAIM/hub/commit/d2fdb7fed7bf1380e0350f74edb47738a1f81550))
+* implemented node-robot service to automatically assign permissions ([5b422bd](https://github.com/PrivateAIM/hub/commit/5b422bd3c0a0edfc0695dbe60a0b49b37a661045))
+* initial hybrid cache (redis or memory) implementation ([b1cd569](https://github.com/PrivateAIM/hub/commit/b1cd569ff52d222f61d4b87abc921cb769de8264))
+* migrate to new http create validator syntax ([38ca70e](https://github.com/PrivateAIM/hub/commit/38ca70ee1b060a7d1bd22c87bddcdde21b6fbadc))
+* refactor http controller validation ([#880](https://github.com/PrivateAIM/hub/issues/880)) ([6e11074](https://github.com/PrivateAIM/hub/commit/6e110742f946d4d0e827f4beb497ba2612568b9a))
+* refactoring of master-image workflow ([#845](https://github.com/PrivateAIM/hub/issues/845)) ([7d2b866](https://github.com/PrivateAIM/hub/commit/7d2b8662b24dcf411d3ae8232152fecf53167382))
+
+
+### Bug Fixes
+
+* analysis-node update operation ([ba6cc10](https://github.com/PrivateAIM/hub/commit/ba6cc10c99688ca25eecd4c06242dcea60b8281c))
+* database intitialisation of storage service ([a6e79d9](https://github.com/PrivateAIM/hub/commit/a6e79d9a4cd366942799d8483ca8f780ec8a048b))
+* **deps:** bump @authup/core-kit from 1.0.0-beta.22 to 1.0.0-beta.23 ([#896](https://github.com/PrivateAIM/hub/issues/896)) ([e0dcfed](https://github.com/PrivateAIM/hub/commit/e0dcfed47320bd53fadbca11a05ca677ed0ef7ff))
+* **deps:** bump @authup/kit from 1.0.0-beta.22 to 1.0.0-beta.23 ([#901](https://github.com/PrivateAIM/hub/issues/901)) ([00a447c](https://github.com/PrivateAIM/hub/commit/00a447ce40ab17b67b0809b41c4233e424303a7c))
+* **deps:** bump minio from 8.0.1 to 8.0.2 ([#850](https://github.com/PrivateAIM/hub/issues/850)) ([d6145a3](https://github.com/PrivateAIM/hub/commit/d6145a30f8f4c104435644416f83c0fa94dee109))
+* **deps:** bump socket.io from 4.8.0 to 4.8.1 ([#846](https://github.com/PrivateAIM/hub/issues/846)) ([ede8fb8](https://github.com/PrivateAIM/hub/commit/ede8fb866bcf0ac493c548ae5b70c738978b912a))
+* **deps:** bump the minorandpatch group across 1 directory with 31 updates ([#945](https://github.com/PrivateAIM/hub/issues/945)) ([448e9b8](https://github.com/PrivateAIM/hub/commit/448e9b86bf80f83c4aa8bb32ee0a75190a1d5cb8))
+* **deps:** bump the minorandpatch group across 1 directory with 4 updates ([#906](https://github.com/PrivateAIM/hub/issues/906)) ([e11bc5f](https://github.com/PrivateAIM/hub/commit/e11bc5f3b565347af3180e8e29b4e3b79ace5961))
+* **deps:** bump uuid from 10.0.0 to 11.0.2 ([#852](https://github.com/PrivateAIM/hub/issues/852)) ([c15d400](https://github.com/PrivateAIM/hub/commit/c15d4000e8ec01d442f4b778c4bd58e7df271b53))
+* **deps:** bump winston from 3.15.0 to 3.16.0 ([#878](https://github.com/PrivateAIM/hub/issues/878)) ([71a2fcd](https://github.com/PrivateAIM/hub/commit/71a2fcd6b507dc44543645acd9622d5d9372dd80))
+* do not throw error if permission for node-robot permission creation does not exist ([eac34b5](https://github.com/PrivateAIM/hub/commit/eac34b540b5422fc78658c4aad016fa66ed16bf0))
+* emit node changes after http operaiton ([431a6f7](https://github.com/PrivateAIM/hub/commit/431a6f7cabd1457090b7f20508d6a2ef1e12fbb9))
+* minor adjustment to set synchronization state ([a716ec7](https://github.com/PrivateAIM/hub/commit/a716ec714d1d9954e4bb7eb164aa56efed60d592))
+* minor fix for node-robot permission creation ([ff45808](https://github.com/PrivateAIM/hub/commit/ff45808de43d93fd2c35d9cd35c8285a767becf8))
+* move http controllers ([f71c275](https://github.com/PrivateAIM/hub/commit/f71c275afadcd5d48afe76f57b2a361227b294a5))
+* set robot_id after creation for node ([234770a](https://github.com/PrivateAIM/hub/commit/234770a14568071707bbe14cee4ec3b65cc92b5e))
+* version of pinia ([207fcd4](https://github.com/PrivateAIM/hub/commit/207fcd435ba558029c4ec9b92c33993515ce7b15))
+
 ## [0.8.4](https://github.com/PrivateAIM/hub/compare/v0.8.3...v0.8.4) (2024-10-24)
 
 
