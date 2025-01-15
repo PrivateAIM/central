@@ -62,7 +62,7 @@
         "@types/module-alias": "^2.0.4",
         "@types/supertest": "^6.0.2",
         "@types/yargs": "^17.0.32",
-        "better-sqlite3": "^11.7.2",
+        "better-sqlite3": "^11.8.0",
         "cross-env": "^7.0.3",
         "supertest": "^7.0.0",
         "ts-node": "^10.9.2"

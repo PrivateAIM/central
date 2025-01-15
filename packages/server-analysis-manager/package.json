@@ -42,9 +42,9 @@
         "redis-extension": "^2.0.1",
         "singa": "^1.0.0",
         "tar": "^7.4.3",
-        "tar-fs": "^3.0.6",
+        "tar-fs": "^3.0.8",
         "tar-stream": "^3.1.6",
-        "uuid": "^11.0.4"
+        "uuid": "^11.0.5"
     },
     "devDependencies": {
         "@types/dockerode": "^3.3.34",
