@@ -7,7 +7,7 @@
         "url": "https://tada5hi.net"
     },
     "license": "Apache-2.0",
-    "version": "0.8.5",
+    "version": "0.8.6",
     "description": "This package contains all central packages. It was initially developed as part of my Bachelor Thesis.",
     "workspaces": [
         "packages/*"

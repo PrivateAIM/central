@@ -1,6 +1,6 @@
 {
     "name": "@privateaim/server-messenger",
-    "version": "0.8.5",
+    "version": "0.8.6",
     "private": true,
     "author": {
         "name": "Peter Placzek",
@@ -13,9 +13,9 @@
         "@authup/kit": "^1.0.0-beta.24",
         "@authup/core-kit": "^1.0.0-beta.24",
         "@ebec/http": "^2.3.0",
-        "@privateaim/messenger-kit": "^0.7.6",
-        "@privateaim/server-kit": "^0.8.5",
-        "@privateaim/server-realtime-kit": "^0.8.5",
+        "@privateaim/messenger-kit": "^0.7.7",
+        "@privateaim/server-kit": "^0.8.6",
+        "@privateaim/server-realtime-kit": "^0.8.6",
         "@socket.io/redis-adapter": "^8.3.0",
         "dotenv": "^16.4.5",
         "envix": "^1.3.0",
