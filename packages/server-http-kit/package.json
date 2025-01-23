@@ -1,6 +1,6 @@
 {
     "name": "@privateaim/server-http-kit",
-    "version": "0.8.5",
+    "version": "0.8.6",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "author": {
@@ -18,8 +18,8 @@
         "@authup/server-adapter-kit": "^1.0.0-beta.24",
         "@authup/server-adapter-http": "^1.0.0-beta.24",
         "@ebec/http": "^2.3.0",
-        "@privateaim/kit": "^0.8.5",
-        "@privateaim/server-kit": "^0.8.5",
+        "@privateaim/kit": "^0.8.6",
+        "@privateaim/server-kit": "^0.8.6",
         "@routup/basic": "^1.4.1",
         "@routup/decorators": "^3.4.1",
         "@routup/prometheus": "^2.4.0",

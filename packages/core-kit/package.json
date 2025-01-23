@@ -1,6 +1,6 @@
 {
     "name": "@privateaim/core-kit",
-    "version": "0.8.5",
+    "version": "0.8.6",
     "license": "Apache-2.0",
     "description": "",
     "exports": {
@@ -27,11 +27,11 @@
     },
     "devDependencies": {
         "@authup/core-kit": "^1.0.0-beta.24",
-        "@privateaim/kit": "^0.8.5"
+        "@privateaim/kit": "^0.8.6"
     },
     "peerDependencies": {
         "@authup/core-kit": "^1.0.0-beta.24",
-        "@privateaim/kit": "^0.8.5"
+        "@privateaim/kit": "^0.8.6"
     },
     "gitHead": "5d3b6f4ce1edf2383bdfbf66e913a08c8a3a2e40",
     "publishConfig": {

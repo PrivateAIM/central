@@ -1,6 +1,6 @@
 {
     "name": "@privateaim/storage-kit",
-    "version": "0.8.5",
+    "version": "0.8.6",
     "license": "Apache-2.0",
     "description": "",
     "exports": {
@@ -21,13 +21,13 @@
     },
     "devDependencies": {
         "@authup/core-kit": "^1.0.0-beta.24",
-        "@privateaim/kit": "^0.8.5",
+        "@privateaim/kit": "^0.8.6",
         "hapic": "^2.5.2",
         "rapiq": "^0.9.0"
     },
     "peerDependencies": {
         "@authup/core-kit": "^1.0.0-beta.24",
-        "@privateaim/kit": "^0.8.5",
+        "@privateaim/kit": "^0.8.6",
         "hapic": "^2.5.2",
         "rapiq": "^0.9.0"
     },
